@@ -1,0 +1,48 @@
+body {
+    font-family: verdana;
+}
+
+.header {
+    margin: auto;
+    max-width: 720px;
+}
+
+.my_photo {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#my_name {
+    margin: 0;
+    font-size: 50px;
+    color: blue;
+}
+
+.article {
+    max-width: 720px;
+    background: #f0f0f0;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 12px;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.footer {
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.links {
+    margin-right: 16px;
+}
+
+p {
+    margin: 0;
+}
