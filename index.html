@@ -2,35 +2,55 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Sueyvid</title>
-	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portifólio: Sueyvid José</title>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<header class="header">
-		<img src="src/minha_foto.jpg" class="my_photo">
-		<h1 id="my_name">Sueyvid José</h1>
-	</header>
-	<section>
-		<article class="article">
-			<h2 class="title">Resumo</h2>
-			<p>Essa é minha página do GitHub! Por aqui você encontrará meus projetos e estudos de programação que estou aprendendo.</p>
-		</article>
-		<article class="article">
-			<h2 class="title">Meus projetos</h2>
-			<p>Esse é o meu primeiro jogo: <a href="https://sueyvid.github.io/a-procura-do-primo/">A procura do primo</a></p>
-		</article>
-		<article class="article">
-			<h2 class="title">Estudos</h2>
-			<h3>05/05/2021 - 12/05/2021</h4>
-			<p>Estou aprendendo HTML e CSS <br> Estou aprimorando esta página de acordo com os estudos que estou fazendo.</p>
-		</article>
-	</section>
+	<main class="page-container">
+		<header class="header">
+			<img src="assets/images/minha_foto.jpg" class="my_photo">
+			<div class="infos">
+				<h1 id="my_name">Sueyvid José</h1>
+				<h2 id="profession">Dev front-end</h2>
+			</div>
+		</header>
+		<section class="boxes">
+			<article class="article">
+				<h2 class="title">Sobre mim</h2>
+				<p>Sou um aluno da Universidade Federal do Rio Grande do Norte (UFRN). Faço o curso de Ciências e Tecnologia e lá despertei a paixão pela programação.</p>
+			</article>
+			<article class="article">
+				<h2 class="title">Meus projetos</h2>
+				<a href="https://sueyvid.github.io/hbomax-projeto-css/index.html" target="_blank">
+					<p>Clone do site da HBO Max:</p>
+					<img class="project" src="assets/images/projeto-1.png" alt="projeto clone hbo max">
+				</a>
+			</article>
+			<article class="article">
+				<h2 class="title">Habilidades</h2>
+				<h3 class="hard-skills"><img src="assets/images/icons8-html-5.svg" alt="ícone html5"> HTML</h4>
+				<ul>
+					<li>HTML Semântico</li>
+				</ul>
+				<h3 class="hard-skills"><img src="assets/images/icons8-css.svg" alt="ícone css"> CSS</h3>
+				<ul>
+					<li>Responsividade</li>
+					<li>Flexbox</li>
+					<li>Grid Layout</li>
+				</ul>
+			</article>
+		</section>
+	</main>
 	<footer class="footer">
 		<hr>
 		<h2>Meios de contato:</h2>
-		<a href="https://github.com/sueyvid" target="_blank" class="links">GitHub</a>
-		<a href="https://www.linkedin.com/in/sueyvid/" target="_blank" class="links">LinkedIn</a>
-		<a href="mailto:sueyvidr8@gmail.com">sueyvidr8@gmail.com</a>
+		<div class="links-container">
+			<a href="https://github.com/sueyvid" target="_blank" class="links"><img src="assets/images/icons8-github.svg" alt="ícone github">GitHub</a>
+			<a href="https://www.linkedin.com/in/sueyvid/" target="_blank" class="links"><img src="assets/images/icons8-linkedin.svg" alt="ícone linkedin">LinkedIn</a>
+			<a href="mailto:sueyvidr8@gmail.com" class="links"><img src="assets/images/icons8-nova-mensagem-50.png" alt="ícone email">enviar email</a>
+		</div>
+		<p class="license">Icons by <a href="https://icons8.com.br/">Icons8</a></p>
 	</footer>
 </body>
 </html>
